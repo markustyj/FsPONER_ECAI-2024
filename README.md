@@ -1,7 +1,19 @@
 # FsPONER -- ECAI2024
 FsPONER: Few-shot Prompt Optimization for Named Entity Recognition in Domain-specific Scenarios
 
-Link to the paper: https://arxiv.org/abs/2407.08035
+Link to the paper: https://ebooks.iospress.nl/doi/10.3233/FAIA240936 or https://arxiv.org/abs/2407.08035
+
+Please cite the paper:
+```
+@incollection{tang2024fsponer,
+  title={FsPONER: Few-Shot Prompt Optimization for Named Entity Recognition in Domain-Specific Scenarios},
+  author={Tang, Yongjian and Hasan, Rakebul and Runkler, Thomas},
+  booktitle={ECAI 2024},
+  pages={3757--3764},
+  year={2024},
+  publisher={IOS Press}
+}
+```
 
 #### The optimized prompt structure.
 <figure>
