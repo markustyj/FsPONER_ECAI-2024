@@ -14,20 +14,14 @@ Link to the paper: https://ebooks.iospress.nl/doi/10.3233/FAIA240936 or https://
 }
 ```
 
-#### The optimized prompt structure.
-<figure>
-  <div style="text-align: center;">
-  <img src=prompt_structure.png alt="Description" width="420">
-  <figcaption></figcaption>
-</figure>
 
-
-## How to run the code quickly? 
+# How to run the code quickly? 
 ```
 1) Run all cells of ***formal_get_stratified_few_shot_examples_for_input.ipynb*** to obtain the list of few-shot examples for prompting with 3 different selection methods, and save them in folder ***data/immutable_data_formal***.
 2) Run all cells of ***eva_gpt4.ipynb*** to construct the prompt with saved few-shot examples, and directly get the evaluation results.
 ```
 
+<br>
 
 ## folder - data 
 ***data/assembly_dataset***, ***data/fabNER***, ***data/thin-film-technology-dataset*** store the original data of the three industrial datasets
@@ -53,6 +47,13 @@ notebooks with ***formal_finetune_*** are the scripts to fine-tune LLaMA 2
 notebooks with ***get_results_*** are the scripts to get completions from LLaMA 2-chat, Vicuna...
 
 <br>
+
+### The optimized prompt structure.
+<figure>
+  <div style="text-align: center;">
+  <img src=prompt_structure.png alt="Description" width="420">
+  <figcaption></figcaption>
+</figure>
 
 ### A short overview of evaluation results
 <figure>
