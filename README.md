@@ -3,7 +3,6 @@ FsPONER: Few-shot Prompt Optimization for Named Entity Recognition in Domain-spe
 
 Link to the paper: https://ebooks.iospress.nl/doi/10.3233/FAIA240936 or https://arxiv.org/abs/2407.08035
 
-Please cite the paper:
 ```
 @incollection{tang2024fsponer,
   title={FsPONER: Few-Shot Prompt Optimization for Named Entity Recognition in Domain-Specific Scenarios},
@@ -21,6 +20,13 @@ Please cite the paper:
   <img src=prompt_structure.png alt="Description" width="420">
   <figcaption></figcaption>
 </figure>
+
+
+## How to run the code quickly? 
+```
+1) Run all cells of ***formal_get_stratified_few_shot_examples_for_input.ipynb*** to obtain the list of few-shot examples for prompting with 3 different selection methods, and save them in folder ***data/immutable_data_formal***.
+2) Run all cells of ***eva_gpt4.ipynb*** to construct the prompt with saved few-shot examples, and directly get the evaluation results.
+```
 
 
 ## folder - data 

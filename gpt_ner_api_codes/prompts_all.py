@@ -15,14 +15,14 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 nltk.download('stopwords')
 nltk.download('punkt')
-from simcse import SimCSE
+#from simcse import SimCSE
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer, TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import classification_report, f1_score, precision_score, recall_score
 
 from gpt_ner_api_codes.demonstration_samples_generation import * # import all three methods "random", "sentence" and "entity"
-#from gpt_ner_api_codes.api_gpt3 import *
+from gpt_ner_api_codes.api_gpt3 import *
 from gpt_ner_api_codes.api_gpt4 import *
  
 
