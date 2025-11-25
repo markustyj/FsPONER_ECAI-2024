@@ -5,7 +5,7 @@ Link to the paper: https://ebooks.iospress.nl/doi/10.3233/FAIA240936 or https://
 
 ```
 @incollection{tang2024fsponer,
-  title={FsPONER: Few-Shot Prompt Optimization for Named Entity Recognition in Domain-Specific Scenarios},
+  title={{FsPONER}: Few-Shot Prompt Optimization for Named Entity Recognition in Domain-Specific Scenarios},
   author={Tang, Yongjian and Hasan, Rakebul and Runkler, Thomas},
   booktitle={ECAI 2024},
   pages={3757--3764},
